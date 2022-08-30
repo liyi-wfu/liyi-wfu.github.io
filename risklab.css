@@ -1,0 +1,249 @@
+#bkmask {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+#panel-view {
+    box-sizing: border-box;
+    padding-right:5px;
+    background-color: #FFF;
+    padding-top: 10px;
+}
+
+#permnobox {
+    box-sizing: border-box;
+    background-color: #FFF;
+    min-height: 60px;
+    position: relative;
+    border-bottom: solid 1px #CCC;
+}
+
+#methodbox {
+    border-bottom:solid 1px #CCC;
+}
+
+#addbox {
+    float: right;
+}
+
+#stocklist {
+    margin: 5px 0px;
+    float: left;
+    font-size: 16px;
+}
+
+.stockone {
+    margin:3px 0px;
+    margin-right:15px;
+    padding:3px 10px;
+    float:left;
+    border:solid 1px #CCC;
+    border-left:solid 8px;
+}
+
+.stockone:hover
+{
+    cursor: pointer;
+    background-color:aliceblue;
+}
+
+#symbol-list
+{
+    position: absolute;
+    width:330px;
+    background-color:rgba(255,255,255,0.85);
+    border:solid 1px #CCC;
+    border-radius: 4px;
+    padding:2px;
+    display:none;
+    z-index: 50;
+}
+
+#symbol-nres
+{
+    font-size:12px;
+    padding:2px;
+}
+
+.symbol-one
+{
+    padding:3px 3px;
+    font-size:12px;
+    color: #888;
+}
+
+.symbol-one:hover
+{
+    cursor: pointer;
+    background: rgba(0,0,0,0.2);
+}
+
+.symbol-sym
+{
+    color:#33D;
+    font-weight: bold;
+    font-size:13px;
+}
+
+.label-delstock
+{
+    padding-top:3px;
+    padding-left:5px;
+}
+
+.label-stock
+{
+    font-size:9px;
+    line-height: 2.4;
+    vertical-align: top;
+}
+
+.label-sector
+{
+    font-size: 10px;
+    border: solid 1px #999;
+    color: #AAA;
+    padding: 0px 2px;
+    margin-left: 5px;
+}
+
+.risklabtitle
+{
+    background-image:linear-gradient(to bottom,#337ab7 0,#2b669a 100%);
+    padding:5px;
+    font-size: 14px;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: 600;
+}
+
+A.share-bt
+{
+    display: inline-block;
+    border-radius: 50%;
+    border: solid 2px #CCC;
+    font-size: 18px;
+    width: 24px;
+    height: 24px;
+    color: #CCC;
+    line-height: 18px;
+    font-weight: 900;
+    padding-top: 1px;
+    text-decoration: none;
+    text-align: center;
+}
+
+A.share-bt:hover
+{
+    text-decoration: none;
+    color: #AAA;
+    border-color: #AAA;
+    background-color: #EEE;
+}
+
+A.share-bt:visited
+{
+    text-decoration: none;
+}
+
+#busy-shade {
+    background-color: #FFF;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+#busy-shade-text {
+    font-size: 20px;
+    position: absolute;
+    top: 47%;
+    width: 100%;
+    text-align: center;    
+}
+
+
+input.search-box {
+    font-size:12px;
+    width:60px; 
+    float:left;
+    line-height: 14px;
+    margin-top: 9px;
+    height: 29px;
+}
+
+#future-list, #future-pit-list
+{
+    position: absolute;
+    width:900px;
+    background-color:rgba(255,255,255,0.85);
+    border:solid 1px #CCC;
+    border-radius: 4px;
+    padding:2px;
+    display:none;
+    z-index: 50;
+    font-size: 12px;
+    color: #666;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.future-title
+{
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px #DDD;
+}
+
+.future-group, .future-pit-group
+{
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px #DDD;
+}
+
+.future-item, .future-pit-item
+{
+    float: left;
+    width: 220px;
+    padding: 1px 3px;
+    border-radius: 2px;
+}
+
+.future-item:hover
+{
+    background-color: #DDD;
+    cursor: pointer;
+}
+
+.future-pit-item:hover
+{
+    background-color: #DDD;
+    cursor: pointer;
+}
+
+.future-root, .future-pit-root
+{
+    display:inline-block;
+    width: 45px;
+    color: blue;
+    font-weight: bold;
+}
+
+
+
